@@ -21,7 +21,7 @@ title : TelekomCloud DevOps team RSS Feed
                 <link>{{ site.production_url }}{{ post.url }}</link>
                 <guid>{{ site.production_url }}{{ post.id }}</guid>
                 <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-				<author>{{ post.post_author }}</author>
+				<author>{{ post.author }}</author>
         </item>
 {% endfor %}
 
