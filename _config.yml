@@ -1,0 +1,8 @@
+name: TelekomCloud DevOps team
+title: TelekomCloud DevOps team
+
+pygments: true
+
+production_url: http://telekomcloud.github.io
+atom_path : /atom.xml
+rss_path : /rss.xml
