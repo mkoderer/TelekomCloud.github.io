@@ -18,8 +18,8 @@ In the past, stress tests had their own area inside Tempest. New tests were intr
 
 Two main purposes of stress test are obvious:
 
-  * Having a framework to find/reproduce race conditions
-  * Having a framework to simulate real-life load with a mixture of load profiles
+ * Having a framework to find/reproduce race conditions
+ * Having a framework to simulate real-life load with a mixture of load profiles
 
 Those two topics are already covered by Tempest tests today: grouping API test enables us to detect race conditions, using scenario test, we can simulate load profiles.
 
@@ -63,12 +63,12 @@ It can simply get added to any existing unit test or used as the only purpose fo
 
 All existing test attributes like `smoke` or `gate` can also be used as filter within the discovery function.
 
-## Which tests are good candidates?
+## Which Tests are Good Candidates?
 
 In fact, it's often easier to identify test cases that aren't good candidates:
 
-  * Negative test
-  * Single unit test function that cover only one little aspect (like listing volumes)
-  * Tests that interfere each other (like changing quotas)
+ * Negative test
+ * Single unit test function that cover only one little aspect (like listing volumes)
+ * Tests that interfere each other (like changing quotas)
  
 All others tests might be interesting candidates to get integrated and used from the test framework. So please feel free to identify new cases and contribute them to OpenStack/Tempest.
